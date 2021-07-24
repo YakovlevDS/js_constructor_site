@@ -250,90 +250,117 @@ const movieConstructor = (selector, options) => {
   }
 };
 
+
+
+
 movieConstructor(".app", {
-  /* eslint-disable indent */
-  title: "Локи",
-  background: "loki/background.jpg",
-  favicon: "loki/favicon.png",
+  title: "rickandmorty/fonts.png",
+  background: "rickandmorty/background.png",
   fontColor: "#ffffff",
-  backgroundColor: "#141218",
-  subColor: "#014206",
+  backgroundColor: "#0f190a",
+  subColor: "#9D2929",
+  favicon: "rickandmorty/logo.png",
   header: {
-    logo: "loki/logo.png",
+    logo: "rickandmorty/logo.png",
+    menu: [
+      {
+        title: "Description",
+        link: "#",
+      },
+      {
+        title: "Trailer",
+        link: "#",
+      },
+      {
+        title: "Reviews",
+        link: "#",
+      },
+    ],
     social: [
       {
         title: "Twitter",
         link: "https://twitter.com",
-        image: "loki/social/twitter.svg",
+        image: "rickandmorty/social/twitter.svg",
       },
       {
         title: "Instagram",
         link: "https://instagram.com",
-        image: "loki/social/instagram.svg",
+        image: "rickandmorty/social/instagram.svg",
       },
       {
         title: "Facebook",
         link: "https://facebook.com",
-        image: "loki/social/facebook.svg",
-      },
-    ],
-    menu: [
-      {
-        title: "Описание",
-        link: "#",
-      },
-      {
-        title: "Трейлер",
-        link: "#",
-      },
-      {
-        title: "Отзывы",
-        link: "#",
+        image: "rickandmorty/social/facebook.svg",
       },
     ],
   },
   main: {
-    genre: "2021, фантастика, фэнтези, боевик, приключения",
-    rating: "8",
-    description: `Локи попадает в таинственную организацию «Управление временными изменениями» после того,
-    как он украл Тессеракт, и путешествует во времени, меняя историю.`,
-    trailer: "https://youtu.be/YrjHcYqe31g",
+    genre: "2013 Science fiction, tragicomedy, adventure, black humor",
+    rating: "9",
+    description:
+      "The series is dedicated to the misadventures of the cynical mad scientist Rick Sanchez and his naive, capricious and insecure grandson Morty.",
+    trailer: "https://www.youtube.com/watch?v=YHkjM3bWDyw",
     slider: [
       {
-        img: "loki/series/series-1.jpg",
-        title: "Славная миссия",
-        subtitle: "Серия №1",
+        img: "rickandmorty/series/series-1.jpg",
+        title: "Pilot",
+        subtitle: "Series No.1",
       },
       {
-        img: "loki/series/series-2.jpg",
-        title: "Вариант",
-        subtitle: "Серия №2",
+        img: "rickandmorty/series/series-2.jpg",
+        title: "Lawnmower Dog",
+        subtitle: "Series No.2",
       },
       {
-        img: "loki/series/series-3.jpg",
-        title: "Ламентис",
-        subtitle: "Серия №3",
+        img: "rickandmorty/series/series-3.jpg",
+        title: "Anatomy Park",
+        subtitle: "Series No.3",
       },
       {
-        img: "loki/series/series-4.jpg",
-        title: "Смежное событие",
-        subtitle: "Серия №4",
+        img: "rickandmorty/series/series-4.jpg",
+        title: "M. Night Shaym-Aliens!",
+        subtitle: "Series No.4",
       },
       {
-        img: "loki/series/series-5.jpg",
-        title: "Путешествие в неизвестность",
-        subtitle: "Серия №5",
+        img: "rickandmorty/series/series-5.jpg",
+        title: "Meeseeks and Destroy",
+        subtitle: "Series No.5",
       },
       {
-        img: "loki/series/series-6.jpg",
-        title: "На все времена. Всегда",
-        subtitle: "Серия №6",
+        img: "rickandmorty/series/series-6.jpg",
+        title: "Rick Potion #9",
+        subtitle: "Series No.6",
+      },
+      {
+        img: "rickandmorty/series/series-7.jpg",
+        title: "Raising Gazorpazorp",
+        subtitle: "Series No.7",
+      },
+      {
+        img: "rickandmorty/series/series-8.jpg",
+        title: "Rixty Minutes",
+        subtitle: "Series No.8",
+      },
+      {
+        img: "rickandmorty/series/series-9.jpg",
+        title: "Something Ricked This Way Comes",
+        subtitle: "Series No.9",
+      },
+      {
+        img: "rickandmorty/series/series-10.jpg",
+        title: "Close Rick-counters of the Rick Kind",
+        subtitle: "Series No.10",
+      },
+      {
+        img: "rickandmorty/series/series-11.jpg",
+        title: "Ricksy Business",
+        subtitle: "Series No.11",
       },
     ],
   },
   footer: {
-    copyright: "© 2020 The Loki. All right reserved.",
-    footerNav: [
+    copyright: "© 2013 Rick and Morty. All right reserved.",
+    menu: [
       {
         title: "Privacy Policy",
         link: "#",
